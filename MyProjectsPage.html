@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div id="section1">
+        <div class="main-card d-flex flex-column justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/software-developer-img.png" class="main-image" />
+            <h1>My Projects</h1>
+            <p>These are a few of my Static Website projects that I have devel oped using
+                HTML CSS and Bootstrap</p>
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/advanced-technologies-img.png" class="sec2-image-2" onclick="display('section2')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-img.png" class="sec2-image-3" onclick="display('section3')" />
+        </div>
+        <div class="d-flex flex-row justify-content-center">
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/food-img.png" class="sec2-image-2" onclick="display('section4')" />
+            <img src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/news-paper-img.png" class="sec2-image-3" onclick="display('section5')" />
+        </div>
+        <style>
+            @import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+            
+            .main-card {
+                font-family: "Bree Serif";
+                text-align: center;
+            }
+            
+            .main-image {
+                height: 45vh;
+            }
+            
+            .sec2-image-2 {
+                height: 15vh;
+                width: 40vw;
+                margin-right: 10px;
+                margin-bottom: 20px;
+            }
+            
+            .sec2-image-3 {
+                height: 15vh;
+                width: 40vw;
+                margin-left: 10px;
+                margin-bottom: 20px;
+            }
+        </style>
+    </div>
+    <div id="section2">
+        <div class="tech-bg d-flex flex-column justify-content-end">
+            <div class="tech-card1">
+                <h1 class="tech-head1">Advanced Technologies</h1>
+                <p class="tech-para">Machinery and equipment developed from the application
+                    of scientific knowledge</p>
+                <button class="btn btn-light">Learn more</button>
+                <button class="btn btn-primary" onclick="display('section1')">Back</button>
+            </div>
+        </div>
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+            .tech-bg {
+                background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/arvrbg.png");
+                background-size: cover;
+                height: 100vh;
+            }
+
+            .tech-card1 {
+                padding: 10px;
+                background-color: #ffffff;
+                text-align: left;
+                border-top-left-radius: 20px;
+                border-top-right-radius: 20px;
+                height: 200px;
+            }
+
+            .tech-head1 {
+                color: #5752ab;
+                font-family: "Bree Serif";
+            }
+
+            .tech-para {
+                font-size: 20px;
+                font-weight: 400;
+                color: #323f4b;
+                font-family: "Roboto";
+            }
+        </style>
+    </div>
+    <div id="section3">
+        <div class="diwali-top-section">
+      <h1 class="diwali-top-section-heading">
+        Celebrate Diwali with your friends
+      </h1>
+    </div>
+    <div class="diwali-bottom-section">
+      <div class="d-flex flex-row justify-content-center">
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/lamp-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Diwali Air Balloon</h1>
+          <p class="diwali-card-price">Rs 369</p>
+        </div>
+
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diya-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Diwali - Lamp</h1>
+          <p class="diwali-card-price">Rs 50</p>
+        </div>
+      </div>
+      <div class="d-flex flex-row justify-content-center">
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firework-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Sparklers</h1>
+          <p class="diwali-card-price">Rs 150</p>
+        </div>
+
+        <div class="diwali-card-item">
+          <img
+            src="https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/firecracker-img.png"
+            class="diwali-card-image"
+          />
+          <h1 class="diwali-card-name">Fire Cracker</h1>
+          <p class="diwali-card-price">Rs 560</p>
+        </div>
+      </div>
+      <button class="btn btn-primary" onclick="display('section1')">Back</button>
+    </div>
+    <style>
+        .diwali-top-section {
+          background-image: url("https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/diwali-bg.png");
+          height: 30vh;
+          background-size: cover;
+        }
+        .diwali-top-section-heading {
+          color: white;
+          font-family: "Caveat";
+          font-size: 36px;
+          width: 200px;
+          padding: 20px;
+        }
+        .diwali-bottom-section {
+          text-align:center;
+          background-color: #e6f6ff;
+          padding:15px;
+          height: 100vh;
+        }
+        .diwali-card-item {
+          text-align: center;
+          background-color: white;
+          width:140px;
+          border-radius: 9px;
+          padding: 16px;
+          margin: 15px;
+        }
+        .diwali-card-image {
+          height: 64px;
+          width: 64px;
+        }
+        .diwali-card-name {
+          color: #616e7c;
+          font-family: "Roboto";
+          font-size: 12px;
+          font-weight: normal;
+        }
+        .diwali-card-price {
+          color: #323f4b;
+          font-family: "Roboto";
+          font-size: 16px;
+          font-weight: 500;
+        }
+    </style>
+    </div>
+    <div id="section4">
+        <div class="bg-21 d-flex flex-column justify-content-end">
+            <div class="con1">
+                <h1 class="head">Happy Meals</h1>
+                <p>Discover the best food over the 1,000 restaurents</p>
+                <div class="d-flex flex-row justify-content-start">
+                    <button class="btn btn-light button">Book Now</button>
+                    <button class="btn btn-primary" onclick="display('section1')">Back</button>
+                </div>
+            </div>
+        </div>
+        <style>
+        .bg-21 {
+            background-image: url('https://d1tgh8fmlzexmh.cloudfront.net/ccbp-static-website/foodbg.png');
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        .con1 {
+            background-color: #f6c56e;
+            font-family: "Roboto";
+            font-size: 20px;
+            padding: 5px;
+            color: #323f4b;
+            height: 180px;
+            border-top-left-radius: 30px;
+            border-top-right-radius: 30px;
+        
+        }
+        
+        .head {
+            font-family: "Bree Serif";
+        }
+        
+        .button {
+            font-family: "Roboto";
+            background-color: #ffffff;
+            margin-right: 10px;
+        }
+
+        </style>
+    </div>
+    <div id=section5>
+        <div class="bg-2 d-flex flex-column justify-content-end">
+            <div class="card12">
+                <p class="para">NEWS OF THE DAY</p>
+                <h1 class="head--1">iB Cricket announces world's first Virtual Reality Cricket League</h1>
+                <p class="para">
+                    iB Cricket and Viu together have announced the World's
+                    first virtual reality cricket league featuring 12 international
+                    cricketers, who will be competing against each other for
+                    the iB Cricket Super Over League title in Mumbai. Iconic
+                    cricketers like Virender Sehwag, Suresh Raina. Brendon
+                    McCullum will be competing in the league.
+                </p>
+                <div>
+                    <button class="button--1">Read more</button>
+                    <button class="btn btn-primary" onclick="display('section1')">Back</button>
+                </div>
+            </div>
+        </div>
+        <style>
+                    
+        .bg-2 {
+            background-image: url("https://cdn.britannica.com/25/93825-050-D1300547/collection-newspapers.jpg");
+            background-size: cover;
+            height: 100vh;
+        }
+        
+        .card12 {
+            background-color: #ffffff;
+            padding: 20px;
+            border-top-right-radius: 20px;
+            border-top-left-radius: 20px;
+            font-family: "roboto";
+        }
+        
+        .head--1 {
+            font-size: 29px;
+            color: #323f4b;
+            font-weight: 500;
+        }
+        
+        .para {
+            color: #7b8794;
+        }
+        
+        .button--1 {
+            height: 50px;
+            width: 150px;
+            border-radius: 18px;
+            background-color: #183b56;
+            color: #ffffff;
+        }
+        </style>
+    </div>
+    <script type="text/javascript" src="https://new-assets.ccbp.in/frontend/content/static-ccbp-ui-kit/static-ccbp-ui-kit.js"></script>
+</body>
+
+</html>
